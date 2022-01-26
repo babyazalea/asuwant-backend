@@ -1,9 +1,16 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
 const port = 3001;
+
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
+});
+
+app.get("/api", (req, res) => {
+  res.json({ message: "Hello from server!" });
 });
 
 app.listen(port, () => {
