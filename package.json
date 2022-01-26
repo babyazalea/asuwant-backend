@@ -1,0 +1,10 @@
+{
+  "name": "asuwant-backend",
+  "version": "1.0.0",
+  "description": "asuwant express server",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
