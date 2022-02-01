@@ -12,9 +12,11 @@ app.use(cors());
 
 // News API에서 뉴스 가져오기
 app.use("/api/news", (req, res) => {
+  const query = req.query;
+
   axios
     .get(
-      `https://newsapi.org/v2/top-headlines?country=kr&apiKey=${process.env.NEWS_API_KEY}`
+      `https://newsapi.org/v2/top-headlines?country=${query.countryCode}&category=${query.categoryName}&apiKey=${process.env.NEWS_API_KEY}`
     )
     .then((response) => {
       const articles = response.data.articles;
