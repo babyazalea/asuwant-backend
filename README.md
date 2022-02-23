@@ -7,7 +7,7 @@ asuwant는 각국 뉴스를 골라볼 수 있는 웹 앱입니다. asuwant의 �
 
 ## 사용하기
 
-Github Pages를 통해서 배포한 프론트엔드와 연결되어 있습니다. 아래의 주소로 들어가시면 사용해보실 수 있습니다.
+배포는 heroku를 통해 이루어졌으며, Github Pages를 통해서 배포한 프론트엔드와 연결되어 있습니다. 아래의 주소로 들어가시면 사용해보실 수 있습니다.
 
 [https://tyange.github.io/asuwant-frontend/](https://tyange.github.io/asuwant-frontend/)
 <br>
